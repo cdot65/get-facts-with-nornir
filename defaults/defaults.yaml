@@ -1,0 +1,4 @@
+---
+junos_group:
+    username: 'automation'
+    platform: 'aikr8Am_bg!vppd'

@@ -1,0 +1,43 @@
+---
+# juniper-srx-garage0:
+#     hostname: 'juniper-srx-garage0'
+#     groups:
+#         - junos_group
+#     data:
+#         node_type: 'firewall'
+#         cluster: True
+#         interfaces:
+#             lo0:
+#                 - unit: 0
+#                   ipv4_address: '10.0.1.18/31'
+#             reth0:
+#                 - unit: 10
+#                   ipv4_address: '172.20.12.1/31'
+#                 - unit: 65
+#                   ipv4_address: '10.6.5.1/24'
+#                 - unit: 91
+#                   ipv4_address: '10.9.0.1/16'
+#                 - unit: 255
+#                   ipv4_address: '10.255.0.1/17'
+#             reth1:
+#                 - unit: 101
+#                   ipv4_address: '192.168.101.1/24'
+#                 - unit: 102
+#                   ipv4_address: '192.168.102.1/24'
+#                 - unit: 103
+#                   ipv4_address: '192.168.103.1/24'
+#                 - unit: 104
+#                   ipv4_address: '192.168.104.1/24'
+#                 - unit: 105
+#                   ipv4_address: '192.168.105.1/24'
+#                 - unit: 106
+#                   ipv4_address: '192.168.106.1/24'
+#                 - unit: 107
+#                   ipv4_address: '192.168.107.1/24'
+
+juniper-ex-garage0:
+    hostname: 'juniper-ex-garage0'
+    groups:
+        - junos_group
+    data:
+        node_type: 'switch'
